@@ -1,4 +1,4 @@
-# Bitcoin Data Analysis
+# Bitcoin Data Analysis (SciKit-Learn Prediction)
 
 Demo:
 
