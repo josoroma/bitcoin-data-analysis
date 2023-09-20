@@ -1,3 +1,14 @@
+---
+title: bitcoin-data-analysis
+emoji: 🦀
+colorFrom: indigo
+colorTo: red
+sdk: streamlit
+sdk_version: 1.26.0
+app_file: app.py
+pinned: false
+---
+
 # Bitcoin Data Analysis (SciKit-Learn Prediction)
 
 Demo:
