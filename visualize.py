@@ -45,7 +45,7 @@ def display_description_and_usage(description, usage):
     """)
 
 
-def visualize_market_data(df):
+def market_data(df):
     """Visualizes market data using various indicators."""
     try:
         st.title(MARKET_DATA_TITLE)
@@ -86,7 +86,7 @@ def visualize_market_data(df):
         st.write("An error occurred while visualizing market data. Please check the logs for more details.")
 
 
-def visualize_volatility(df):
+def volatility(df):
     """Visualizes the volatility of the market data."""
     try:
         st.title(VOLATILITY_TITLE)
@@ -109,7 +109,7 @@ def visualize_volatility(df):
         st.write("An error occurred while visualizing volatility data. Please check the logs for more details.")
 
 
-def visualize_trade_velocity(df):
+def trade_velocity(df):
     """Visualizes the trade velocity based on volume traded."""
     try:
         st.title(VOLUME_TRADED_TITLE)
@@ -132,7 +132,7 @@ def visualize_trade_velocity(df):
         st.write("An error occurred while visualizing trade velocity data. Please check the logs for more details.")
 
 
-def visualize_rsi_and_macd(df):
+def rsi_and_macd(df):
     """Visualizes the RSI and MACD indicators."""
     try:
         st.title(MACD_ANALYSIS_TITLE)
